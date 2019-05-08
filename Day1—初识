@@ -5,6 +5,8 @@ Win + R 打开运行窗口，输入cmd回车，打开命令行窗口
 拖动pip主应用程序到命令行窗口，直至命令行窗口增加了如下代码
 输入“install + 模块/包名”，注意中间要有空格。然后回车。窗口中会显示下载信息。
 耐心等待安装完成。安装完成后，我们在Python交互窗口导入包，如果不报错，那么说明安装成功，否则安装失败。
+pip install ipython jupyter 或者 python -m pip install ipython jupyter
+
 
 ## 从终端运行Python程序
 ###确认Python的版本
