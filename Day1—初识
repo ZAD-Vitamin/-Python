@@ -1,7 +1,27 @@
-Python | 如何用pip安装模块和包
+## Python | 如何用pip安装模块和包
 如果不是必须使用某个较早的Python版本，建议在Python官网下载最新的Python版本。
 Win + R 打开运行窗口，输入cmd回车，打开命令行窗口
 找到pip安装路径：Python2/Python3安装路径是相同的，都在x:\Python xx\Scripts路径下
 拖动pip主应用程序到命令行窗口，直至命令行窗口增加了如下代码
 输入“install + 模块/包名”，注意中间要有空格。然后回车。窗口中会显示下载信息。
 耐心等待安装完成。安装完成后，我们在Python交互窗口导入包，如果不报错，那么说明安装成功，否则安装失败。
+
+## 从终端运行Python程序
+###确认Python的版本
+在终端或命令行提示符中键入下面的命令。
+
+python --version
+
+当然也可以先输入python进入交互式环境，再执行以下的代码检查Python的版本。
+
+import sys
+
+print(sys.version_info)
+print(sys.version)
+
+## 第一个程序
+print('hello, world!')
+
+## 代码中的注释
+1.单行注释 - 以#和空格开头的部分
+2.多行注释 - 三个引号开头，三个引号结尾
