@@ -1,4 +1,5 @@
 Python | 如何用pip安装模块和包 
+=====
 如果不是必须使用某个较早的Python版本，建议在Python官网下载最新的Python版本。
 Win + R 打开运行窗口，输入cmd回车，打开命令行窗口
 找到pip安装路径：Python2/Python3安装路径是相同的，都在x:\Python xx\Scripts路径下
